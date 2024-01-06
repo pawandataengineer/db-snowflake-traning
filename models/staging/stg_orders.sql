@@ -7,14 +7,18 @@ o.orderdate,
 o.shipdate,
 o.shipmode,
 (o.ordersellingprice -o.ordercostprice ) orderprofit ,
+o.ordercostprice ,
+o.ordersellingprice,
 
 -- from raw customer
+c.customerid,
 c.customername ,
 c.segment ,
 c.country ,
 c.state ,
 
 --from raw product
+p.productid,
 p.category ,
 p.subcategory ,
 p.productname
