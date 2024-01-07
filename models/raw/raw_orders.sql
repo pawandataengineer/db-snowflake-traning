@@ -5,5 +5,5 @@
 }}
 
 
-select *
-from {{ source('globalmart', 'orders') }}
+select  *
+from {{ source('globalmart', 'orders') }} 
